@@ -1,35 +1,87 @@
-# Projeto-em-C
-🎯 Objetivo acadêmico
+# 🚀 Simulador de Física em C
+
+Projeto acadêmico desenvolvido em linguagem **C** durante minha formação na área de tecnologia.
+
+O projeto tem como objetivo aplicar conceitos de **programação, matemática e física** por meio de um simulador interativo executado pelo terminal.
+
+---
+
+## 🎯 Objetivo acadêmico
+
 Este projeto foi desenvolvido como uma atividade acadêmica com o objetivo de praticar conceitos fundamentais da linguagem C e aplicar conhecimentos de matemática e física na construção de um programa funcional.
+
 Além da implementação das fórmulas, o projeto busca desenvolver habilidades relacionadas à organização, lógica e estruturação de código.
-🧠 O que aprendi com o projeto
+
+---
+
+## ⚙️ Funcionalidades
+
+### 🚀 Lançamento Oblíquo
+
+Calcula:
+
+- Tempo de voo
+- Velocidade inicial
+- Altura máxima
+- Alcance do lançamento
+
+### 🪂 Queda Livre
+
+Calcula:
+
+- Tempo de queda
+- Velocidade final
+
+### ⚡ Energia Cinética
+
+Calcula a energia cinética utilizando:
+
+**Ec = (m × v²) / 2**
+
+### 📐 Energia Potencial
+
+Calcula a energia potencial gravitacional utilizando:
+
+**Ep = m × g × h**
+
+### 🔄 Conversão de Unidades
+
+Converte velocidades de:
+
+**km/h → m/s**
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- C
+- `stdio.h`
+- `math.h`
+
+---
+
+## 🧠 O que aprendi com o projeto
+
 Durante o desenvolvimento, pude praticar:
-Criação de menus interativos
-Utilização de switch/case
-Estruturas de repetição
-Manipulação de variáveis
-Operações matemáticas em C
-Utilização da biblioteca math.h
-Implementação de fórmulas matemáticas
-Organização do código
-Comentários e documentação
-Compilação e execução de programas em C
-🔮 Próximas melhorias
-Algumas funcionalidades que podem ser adicionadas futuramente:
-[ ] Validação dos valores inseridos pelo usuário
-[ ] Mais opções de conversão de unidades
-[ ] Conversão de m/s para km/h
-[ ] Novos cálculos de física
-[ ] Melhorias na interface do terminal
-[ ] Histórico dos cálculos realizados
-[ ] Separação do código em funções
-[ ] Interface gráfica em uma versão futura
-🎓 Contexto
-📌 Tipo: Projeto acadêmico
-💻 Linguagem: C
-📚 Área: Programação / Física
-🎯 Objetivo: Prática de lógica de programação e aplicação de conceitos matemáticos
-👨‍💻 Autor
-Lucas (Luks) Pereira
-Estudante de tecnologia e desenvolvedor em formação.
-📌 Interesse em desenvolvimento de software, desenvolvimento web e desenvolvimento Full Stack.
+
+- Criação de menus interativos
+- Utilização de `switch/case`
+- Estruturas de repetição
+- Manipulação de variáveis
+- Operações matemáticas em C
+- Utilização da biblioteca `math.h`
+- Implementação de fórmulas matemáticas
+- Organização do código
+- Comentários e documentação
+- Compilação e execução de programas em C
+
+---
+
+## 💻 Como executar
+
+Compile o programa utilizando um compilador C.
+
+### Linux
+
+```bash
+gcc simulador_fisica.c -o simulador -lm
