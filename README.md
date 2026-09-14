@@ -77,11 +77,3 @@ Durante o desenvolvimento, pude praticar:
 
 ---
 
-## 💻 Como executar
-
-Compile o programa utilizando um compilador C.
-
-### Linux
-
-```bash
-gcc simulador_fisica.c -o simulador -lm
